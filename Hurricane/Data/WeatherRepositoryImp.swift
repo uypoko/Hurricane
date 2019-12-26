@@ -13,14 +13,14 @@ import RxSwift
 struct WeatherRepositoryImp: WeatherRepository {
     private let baseURL = URL(string: "http://api.openweathermap.org/data/2.5")!
     private let path = "weather"
-    private let apiKey = ""
+    private let apiKey = "c6f31a9aaa88c8a1bc1151627e043a7e"
     
     func currentWeather(city: String) -> Observable<Weather> {
         return buildRequest(params: ["city": city])
     }
     
-    func currentWeather(latitude: String, longitude: String) -> Observable<Weather> {
-        let params = ["lat": latitude, "lon": longitude]
+    func currentWeather(latitude: Double, longitude: Double) -> Observable<Weather> {
+        let params = ["lat": "\(latitude)", "lon": "\(longitude)"]
         return buildRequest(params: params)
     }
     

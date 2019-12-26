@@ -46,6 +46,7 @@ struct Weather: Decodable {
         let mainInfo = try values.nestedContainer(keyedBy: MainKeys.self, forKey: .main)
         temperature = Int(try mainInfo.decode(Double.self, forKey: .temp))
         humidity = try mainInfo.decode(Int.self, forKey: .humidity)
+        
         let coordinate = try values.decode(Coordinate.self, forKey: .coordinate)
         self.coordinate = CLLocationCoordinate2D(latitude: coordinate.lat, longitude: coordinate.lon)
     }

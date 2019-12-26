@@ -16,6 +16,8 @@
 		94D4F1712397D6D6004756C4 /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D4F1702397D6D6004756C4 /* WeatherRepository.swift */; };
 		94D4F1742397D86D004756C4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D4F1732397D86D004756C4 /* Weather.swift */; };
 		94D4F1772397DE66004756C4 /* CurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D4F1762397DE66004756C4 /* CurrentWeatherViewController.swift */; };
+		94FE55E523B4A0B400010602 /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE55E423B4A0B400010602 /* CurrentWeatherViewModel.swift */; };
+		94FE55E723B4B78F00010602 /* CurrentWeatherContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FE55E623B4B78F00010602 /* CurrentWeatherContainer.swift */; };
 		FE1F0208E793BBF6947E6F0F /* Pods_Hurricane.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2ED7CD974AA4EFC4613A77 /* Pods_Hurricane.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		94D4F1702397D6D6004756C4 /* WeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
 		94D4F1732397D86D004756C4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		94D4F1762397DE66004756C4 /* CurrentWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		94FE55E423B4A0B400010602 /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
+		94FE55E623B4B78F00010602 /* CurrentWeatherContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherContainer.swift; sourceTree = "<group>"; };
 		B469B935727FD34013823193 /* Pods-Hurricane.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hurricane.debug.xcconfig"; path = "Target Support Files/Pods-Hurricane/Pods-Hurricane.debug.xcconfig"; sourceTree = "<group>"; };
 		FC2ED7CD974AA4EFC4613A77 /* Pods_Hurricane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hurricane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				94D4F1762397DE66004756C4 /* CurrentWeatherViewController.swift */,
+				94FE55E423B4A0B400010602 /* CurrentWeatherViewModel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			children = (
 				94804A9B23967F00004F5206 /* AppDelegate.swift */,
 				94804A9D23967F00004F5206 /* SceneDelegate.swift */,
+				94FE55E623B4B78F00010602 /* CurrentWeatherContainer.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 				94804A9C23967F00004F5206 /* AppDelegate.swift in Sources */,
 				94804A9E23967F00004F5206 /* SceneDelegate.swift in Sources */,
 				94D4F1742397D86D004756C4 /* Weather.swift in Sources */,
+				94FE55E723B4B78F00010602 /* CurrentWeatherContainer.swift in Sources */,
+				94FE55E523B4A0B400010602 /* CurrentWeatherViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
